@@ -1,0 +1,108 @@
+/* GENERAL PAGE STYLING */
+body {
+    background-color: #ffffff;
+    font-family: 'Georgia', serif; /* font family requirement */
+    color: #1a1a2e; /* font color requirement */
+    margin: 0;
+}
+
+/* NAVBAR */
+.NavBar {
+    background-color: #0b2545; /* navy */
+    padding: 15px;
+    text-align: center;
+}
+
+.NavBar a {
+    color: #f09da9; /* soft pink */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.NavBar a:hover {
+    color: white;
+}
+
+/* HEADER */
+.HeaderSection {
+    background-color: #f7cad0; /* petal pink */
+    text-align: center;
+    padding: 40px;
+}
+
+.FunTitle {
+    color: #0b2545; /* navy */
+    font-size: 2.5em;
+}
+
+.post-subtitle {
+    color: #5c677d;
+    font-style: italic;
+}
+
+/* MAIN CONTENT */
+.ContentSection {
+    padding: 30px;
+}
+
+.ListSection {
+    background-color: #edf2fb; /* light blue */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* GRAPH SECTION */
+.GraphSection {
+    background-color: #f7cad0;
+    padding: 30px;
+    text-align: center;
+}
+
+/* FOOTER */
+.Footer {
+    background-color: #0b2545;
+    text-align: center;
+    padding: 15px;
+}
+
+.Footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.FloatBox {
+    float: right;
+    width: 200px;
+    background-color: #f7cad0;
+    color: #0b2545;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.BadgeBox {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color:#edf2fb; /* light blue */
+    color: #0b2545;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.HighlightCard {
+    position: relative;
+    background-color: #edf2fb;
+    padding: 10px;
+    margin-top: 20px;
+    border-left: 5px solid #f7cad0;
+    top: 10px;
+}
+
+.tableauPlaceholder {
+    width: 1200px;
+    margin: 0 auto;
+}
+
